@@ -14,7 +14,7 @@ header {
       display: inline-block;
       padding: 0 15px; }
       header ul li a {
-        font-size: 12px;
+        font-size: 13px;
         font-weight: 300;
         color: #bba36a; }
         header ul li a:hover {
@@ -39,7 +39,7 @@ header {
     margin-top: 1em; }
 
 .text_lil_monts {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.5; }
 
 #main_content_1 {
@@ -48,7 +48,7 @@ header {
     color: #575657; }
 
 #main_content_2 {
-  padding-top: 50px; }
+  padding-top: 70px; }
   #main_content_2 h1 {
     font-size: 2em;
     text-align: center;
@@ -56,12 +56,33 @@ header {
     text-transform: uppercase; }
 
 #main_content_3 {
-  padding-top: 50px; }
+  padding-top: 70px; }
   #main_content_3 .ritz_caption {
-    padding: 35px;
+    margin-top: -115px;
+    margin-right: 30px;
+    padding: 70px 50px;
     background-color: #bba36a; }
     #main_content_3 .ritz_caption span {
-      margin: 10px 0;
       color: #fff; }
+
+#main_content_4 {
+  padding-bottom: 70px; }
+  #main_content_4 .m_t {
+    margin-top: -140px; }
+  #main_content_4 span {
+    color: #575657; }
+
+footer {
+  background-color: #464646;
+  padding: 50px 0; }
+  footer a {
+    margin-right: 15px; }
+    footer a:hover {
+      text-decoration: none; }
+  footer a.footer_link_contacts {
+    color: #bba36a; }
+    footer a.footer_link_contacts:hover {
+      color: #8F7A4A;
+      text-decoration: none; }
 
 /*# sourceMappingURL=styles.css.map */

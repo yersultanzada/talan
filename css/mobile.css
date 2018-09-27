@@ -1,0 +1,9 @@
+@media only screen and (max-width: 576px){
+    #main_content_3 .ritz_caption {
+        margin-top: 0;
+        margin-right: 0;
+    }
+    #main_content_4 .m_t {
+        margin-top: 20px;
+    }
+}
