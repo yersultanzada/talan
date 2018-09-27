@@ -1,3 +1,12 @@
+$light-yellow: #bba36a;
+.light-yellow {
+  color: $light-yellow;
+}
+$dark-grey: #4a4a4a;
+.dark-grey {
+  color: $dark-grey;
+}
+
 header {
   position: absolute;
   top: 0;
@@ -90,3 +99,5 @@ header {
   }
 
 }
+
+
