@@ -1,0 +1,67 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent; }
+  header .d_t_h {
+    height: 180px; }
+  header ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0; }
+    header ul li {
+      display: inline-block;
+      padding: 0 15px; }
+      header ul li a {
+        font-size: 12px;
+        font-weight: 300;
+        color: #bba36a; }
+        header ul li a:hover {
+          color: #8F7A4A;
+          text-decoration: none; }
+
+#main_bg .main_bg_text {
+  position: absolute;
+  bottom: 40%;
+  left: 0;
+  width: 100%; }
+  #main_bg .main_bg_text h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #bba36a;
+    text-transform: uppercase; }
+  #main_bg .main_bg_text span {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 1em; }
+
+.text_lil_monts {
+  font-size: 12px;
+  line-height: 1.5; }
+
+#main_content_1 {
+  padding-top: 50px; }
+  #main_content_1 span {
+    color: #575657; }
+
+#main_content_2 {
+  padding-top: 50px; }
+  #main_content_2 h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #575657;
+    text-transform: uppercase; }
+
+#main_content_3 {
+  padding-top: 50px; }
+  #main_content_3 .ritz_caption {
+    padding: 35px;
+    background-color: #bba36a; }
+    #main_content_3 .ritz_caption span {
+      margin: 10px 0;
+      color: #fff; }
+
+/*# sourceMappingURL=styles.css.map */
