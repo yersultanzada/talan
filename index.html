@@ -13,21 +13,31 @@
 <header>
     <div class="container">
         <div class="row">
-            <div class="col-2 d-table d_t_h">
+            <div class="col-6 col-xl-2 d-table d_t_h">
                 <div class="logo d-table-cell align-middle">
                     <img src="img/main/logo.png" alt="">
                 </div>
             </div>
-            <div class="col-10 d-table d_t_h">
-                <ul class="d-table-cell align-middle">
-                    <li>
-                        <a href="#">О нас</a>
+            <div class="col-6 col-xl-10 d-table d_t_h">
+                <ul class="desktop_menu d-table-cell align-middle">
+                    <li class="dropdown">
+                        <a href="#" class="dropBtn">
+                            О нас
+                        </a>
+                        <div class="dropdown_content">
+                            <a href="about.html">Инвестор</a>
+                            <a href="#">Общая информация</a>
+                        </div>
                     </li>
                     <li>
                         <a href="#">Talan Towers Offices</a>
                     </li>
-                    <li>
-                        <a href="#">Ritz-Carlton, Astana</a>
+                    <li class="dropdown">
+                        <a href="#" class="dropBtn">Ritz-Carlton, Astana</a>
+                        <div class="dropdown_content">
+                            <a href="#">Инвестор</a>
+                            <a href="#">Общая информация</a>
+                        </div>
                     </li>
                     <li>
                         <a href="#">Ritz-Carlton Residences, Astana</a>
@@ -42,7 +52,59 @@
                         <a href="#">Контакты</a>
                     </li>
                 </ul>
+                <ul class="desktop_menu d-table-cell align-middle lang_items">
+                    <li>
+                        <a href="#">Eng</a>
+                    </li>
+                    <li>
+                        <a href="#">Рус</a>
+                    </li>
+                    <li>
+                        <a href="#">Қаз</a>
+                    </li>
+                </ul>
+
+                <div class="mobile_menu d-table-cell align-middle">
+                    <a href="#" role="button" id="dropdownMenuLink">
+                        <i class="mdi mdi-menu mdi-24px"></i>
+                    </a>
+                </div>
             </div>
+        </div>
+
+        <div class="mobile_dropdown_menu">
+            <a class="mobile_menu_item mobile_dropdown_item">
+                О нас
+                <i class="mdi mdi-menu-down"></i>
+            </a>
+            <div class="menu_item_inner">
+                <ul>
+                    <li>
+                        <a href="about.html">Инвестор</a>
+                    </li>
+                    <li>
+                        <a href="#">Общая информация</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="mobile_menu_item" href="#">
+                Talan Towers Offices
+            </a>
+            <a class="mobile_menu_item" href="#">
+                Ritz-Carlton, Astana
+            </a>
+            <a class="mobile_menu_item" href="#">
+                Ritz-Carlton Residences, Astana
+            </a>
+            <a class="mobile_menu_item" href="#">
+                Emporium
+            </a>
+            <a class="mobile_menu_item" href="#">
+                Рестораны
+            </a>
+            <a class="mobile_menu_item" href="#">
+                Контакты
+            </a>
         </div>
     </div>
 </header>
@@ -144,8 +206,8 @@
 
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/jquery.maskedinput.js"></script>
-<script src="js/bootstrap/bootstrap.min.js"></script>
 <script src="js/bootstrap/popper.min.js"></script>
+<script src="js/bootstrap/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

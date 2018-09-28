@@ -1,9 +1,62 @@
+@media only screen and (max-width: 1200px){
+    header {
+        position: relative;
+        background-color: #464646;
+    }
+    header .container {
+        max-width: 100%;
+        padding: 0 1.5em;
+    }
+    header .d_t_h {
+        height: 64px;
+    }
+    header .logo img {
+        height: 50px;
+    }
+    ul.desktop_menu {
+        display: none !important;
+    }
+}
+@media only screen and (min-width: 1200px){
+    header .container {
+        max-width: 1250px;
+    }
+    header .mobile_menu {
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 768px){
+    #main_bg .main_bg_text h1 {
+        font-size: 1.5em;
+    }
+    #main_content_2 h1 {
+        font-size: 1.5em;
+    }
+}
 @media only screen and (max-width: 576px){
+    header .mobile_dropdown_menu {
+        min-width: 100vw;
+    }
+    #main_bg .main_bg_text {
+        bottom: 50%;
+    }
     #main_content_3 .ritz_caption {
         margin-top: 0;
         margin-right: 0;
     }
     #main_content_4 .m_t {
         margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 440px){
+    #main_bg img {
+        height: 400px;
+        object-fit: cover;
+    }
+    #main_bg .main_bg_text h1 {
+        font-size: 1.2em;
+    }
+    #main_content_2 h1 {
+        font-size: 1.2em;
     }
 }
