@@ -130,3 +130,166 @@ footer {
     }
   }
 }
+#rc_bg {
+
+  .rc_bg_text {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    width: 100%;
+
+    h1 {
+      font-size: 2em;
+      text-align: center;
+      color: #bba36a;
+      text-transform: uppercase;
+    }
+  }
+}
+#rc_content_1 {
+  padding: 60px 0;
+  .caption {
+    padding: 50px 40px;
+    background-color: $light-yellow;
+
+    p {
+      color: #fff;
+    }
+  }
+}
+
+#rc_content_4 {
+
+  .ritz_caption {
+    margin-top: -90px;
+    margin-right: 30px;
+    padding: 40px 30px;
+    background-color: #000000;
+
+    p {
+      color: #fff;
+    }
+  }
+  a {
+    text-decoration: underline;
+    color: $light-yellow;
+    font-size: 1.75em;
+  }
+
+}
+#rcr_content_1 {
+  padding: 50px 0;
+  text-align: center;
+
+  .block_content {
+    padding: 25px 40px;
+    background-color: #000000;
+
+    .block_text {
+      margin: 20px 0;
+
+      p {
+        color: #fff !important;
+      }
+    }
+  }
+  a {
+    text-decoration: underline;
+    color: $light-yellow;
+    font-size: 1.75em;
+  }
+}
+#emporium_content_2 {
+  padding: 50px 0;
+
+  .block_content {
+    padding: 25px 40px;
+    background-color: #000000;
+
+    .block_title {
+      font-size: 2.2em;
+      color: $light-yellow;
+      text-transform: uppercase;
+    }
+
+    .block_text {
+      margin: 20px 0;
+
+      p {
+        color: #fff;
+      }
+    }
+  }
+}
+
+
+
+#rc_mokki_block {
+  padding: 50px 0;
+}
+
+.mokki_block {
+  padding: 25px 40px !important;
+  background-color: #000000;
+
+  .mokki_title {
+    font-size: 2em;
+    text-transform: uppercase;
+    color: $light-yellow;
+  }
+
+  .mokki_text {
+    margin: 20px 0;
+
+    p {
+      color: #fff !important;
+    }
+  }
+}
+
+#rc_ozen_block {
+  padding: 50px 0;
+
+  .ozen_block {
+    padding: 25px 40px;
+    background-color: $light-yellow;
+    color: #fff;
+
+    .ozen_title {
+      font-size: 2em;
+      text-transform: uppercase;
+    }
+
+    .ozen_text {
+      margin: 20px 0;
+      line-height: 1.8;
+    }
+  }
+}
+#rc_selfie_block {
+  padding: 50px 0;
+
+  .selfie_block {
+    padding: 25px 40px;
+
+    .selfie_title {
+      color: $light-yellow;
+      font-size: 2em;
+      text-transform: uppercase;
+    }
+
+    .selfie_text {
+      color: #000000;
+      margin: 20px 0;
+      line-height: 1.8;
+
+      a {
+        text-decoration: underline;
+        color: #000000;
+      }
+    }
+  }
+}
+#rc_starbucks_block {
+  padding: 50px 0;
+}
