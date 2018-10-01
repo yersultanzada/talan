@@ -6,6 +6,7 @@
     <title>Talan Towers</title>
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/materialize/materialdesignicons.min.css">
+    <link rel="stylesheet" href="css/carousel/jquery.carousel-3d.default.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/mobile.css">
 </head>
@@ -15,7 +16,9 @@
         <div class="row">
             <div class="col-6 col-xl-2 d-table d_t_h">
                 <div class="logo d-table-cell align-middle">
-                    <img src="img/main/logo.png" alt="">
+                    <a href="index.html">
+                        <img src="img/main/logo.png" alt="">
+                    </a>
                 </div>
             </div>
             <div class="col-6 col-xl-10 d-table d_t_h">
@@ -25,31 +28,27 @@
                             О нас
                         </a>
                         <div class="dropdown_content">
-                            <a href="#">Инвестор</a>
+                            <a href="about.html">Инвестор</a>
                             <a href="#">Общая информация</a>
                         </div>
                     </li>
                     <li>
-                        <a href="#">Talan Towers Offices</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropBtn">Ritz-Carlton, Astana</a>
-                        <div class="dropdown_content">
-                            <a href="#">Инвестор</a>
-                            <a href="#">Общая информация</a>
-                        </div>
+                        <a href="offices.html">Talan Towers Offices</a>
                     </li>
                     <li>
-                        <a href="#">Ritz-Carlton Residences, Astana</a>
+                        <a href="rc.html">Ritz-Carlton, Astana</a>
                     </li>
                     <li>
-                        <a href="#">Emporium</a>
+                        <a href="rcr.html">Ritz-Carlton Residences, Astana</a>
                     </li>
                     <li>
-                        <a href="#">Рестораны</a>
+                        <a href="emporium.html">Emporium</a>
                     </li>
                     <li>
-                        <a href="#">Контакты</a>
+                        <a href="rc_copy.html">Рестораны</a>
+                    </li>
+                    <li>
+                        <a href="contacts.html">Контакты</a>
                     </li>
                 </ul>
                 <ul class="desktop_menu d-table-cell align-middle lang_items">
@@ -65,9 +64,20 @@
                 </ul>
 
                 <div class="mobile_menu d-table-cell align-middle">
-                    <a href="#" role="button" id="dropdownMenuLink">
-                        <i class="mdi mdi-menu mdi-24px"></i>
-                    </a>
+                    <div class="float-right">
+                        <div class="dropdown">
+                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownLangButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Рус
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownLangButton">
+                                <a class="dropdown-item" href="#">Eng</a>
+                                <a class="dropdown-item" href="#">Қаз</a>
+                            </div>
+                        </div>
+                        <a href="#" role="button" id="dropdownMenuLink">
+                            <i class="mdi mdi-menu mdi-24px"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -87,55 +97,55 @@
                     </li>
                 </ul>
             </div>
-            <a class="mobile_menu_item" href="#">
+            <a class="mobile_menu_item" href="offices.html">
                 Talan Towers Offices
             </a>
-            <a class="mobile_menu_item" href="#">
+            <a class="mobile_menu_item" href="rc.html">
                 Ritz-Carlton, Astana
             </a>
-            <a class="mobile_menu_item" href="#">
+            <a class="mobile_menu_item" href="rcr.html">
                 Ritz-Carlton Residences, Astana
             </a>
-            <a class="mobile_menu_item" href="#">
+            <a class="mobile_menu_item" href="emporium.html">
                 Emporium
             </a>
-            <a class="mobile_menu_item" href="#">
+            <a class="mobile_menu_item" href="rc_copy.html">
                 Рестораны
             </a>
-            <a class="mobile_menu_item" href="#">
+            <a class="mobile_menu_item" href="contacts.html">
                 Контакты
             </a>
         </div>
     </div>
 </header>
-<div class="h-180px" style="height: 180px"></div>
+<div style="height: 115px"></div>
 <section id="about_content_1" class="py-4 text-center">
     <div class="container">
-        <div class="row">
-            <div class="d-block col-12">
-                <h2 class="about_title text_gold text-uppercase">инвестор проекта</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h1 class="title_font text_gold">инвестор проекта</h1>
                 <hr>
                 <img src="img/about/verny.png" alt="" class="mw-100 py-4">
-                <p class="m-5 text_grey">
+                <p class="text_font text_black">
                     Заказчиком многофункционального комплекса Talan Towers выступила казахстанская
                     компания Astana Property Management, которая входит в группу Верный капитал.
                     В портфеле холдинга есть и другие успешные проекты в сфере недвижимости: отели класса -
                     The Ritz Carlton, Moscow, The Ritz-Carlton, Vienna и Rixos Borovoe.
                     Также холдинг управляет офисными зданиями Park View Office Tower и Pine Office Park в Алматы.
                 </p>
-                <a href="" class="text-uppercase text_gold">vernycapital.com</a>
+                <a href="http://vernycapital.com" target="_blank" class="title_font text_gold" style="font-size: 1em; text-decoration: underline">vernycapital.com</a>
             </div>
         </div>
     </div>
 </section>
-<section id="about_content_2" class="py-5">
+<section id="about_content_2" class="py-4">
     <div class="container">
-        <div class="row text-center py-5">
-            <div class="d-block col-12">
-                <h2 class="about_title text_gold text-uppercase">архитектура</h2>
+        <div class="row">
+            <div class="block_content text-center">
+                <h1 class="title_font text_gold">архитектура</h1>
                 <hr>
                 <img src="img/about/som.png" alt="" class="mw-100 py-4">
-                <p class="my-4 text_grey text-justify">
+                <div class="block_text text_font text_black">
                     Архитектором комплекса Talan Towers выступила американская компания SOM
                     (Skidmore, Owings Merrill LLP) – одна из крупнейших компаний в сфере архитектуры,
                     дизайна интерьеров, инжиниринга и городского планирования в мире.
@@ -145,31 +155,31 @@
                     как Burj Khalifa (Дубай, ОАЭ), John Hancock Center (Чикаго, США),
                     а также World Trade Center (Манхэттен, Нью-Йорк, США). Talan Towers – первый проект SOM,
                     реализованный в Астане.
-                </p>
-                <p class="my-3 text_grey text-justify">
+                    <br>
+                    <br>
                     На сегодняшний день SOM — единственная компания, которая дважды была награждена премией
                     Architecture Firm Award от Американского Института Архитектуры.
                     Также деятельность фирмы была отмечена наградой Pritzker Prize, считающейся
                     эквивалентом Нобелевской премии в области архитектуры. Всего на
                     счету SOM более 2000 профессиональных наград.
-                </p>
+                </div>
             </div>
         </div>
         <div class="row py-5">
-            <div class="col-md-6">
-                <div class="d-block">
-                    <p class="about_title text_gold text-uppercase">дизайн интерьеров отеля от английских архитекторов</p>
+            <div class="col-lg-6">
+                <div class="block_content">
+                    <div class="title_font text_gold" style="font-size: 1.5em">дизайн интерьеров отеля от английских архитекторов</div>
                     <hr>
                     <img src="img/about/richmond.png" alt="" class="mw-100 py-4">
-                    <p class="my-4 text_grey text-justify">
+                    <div class="my-4 block_text text_font">
                         Разработкой интерьера отеля занималась компания Richmond International,
                         которая существует с 1966 года и обладает устойчивым реноме на рынке
                         проектирования фешенебельных резиденций, эксклюзивных отелей и ресторанов.
                         На протяжении всего своего существования компания не раз создавала проекты
                         для отелей сети The Ritz-Carlton в самых разных уголках планеты, а в Астане
                         старалась отразить в дизайне местный колорит.
-                    </p>
-                    <p class="my-3 text_grey text-justify">
+                        <br>
+                        <br>
                         Так, например, деревянные резные вставки, украшающие Лобби-лаундж Өzen,
                         были вдохновлены ландшафтом Мангистауских гор. Лобби отеля преображают освещенныенастенные
                         панели, которые напоминают об окаменевших хвойных лесах озера Каинды; тогда как
@@ -178,15 +188,15 @@
                         Стоит отметить, что в оформлении интерьера использованы самые благородные
                         породы мрамора и дерева, поэтому уже сейчас отель The Ritz-Carlton, Astana
                         оценивается многими экспертами как архитектурный шедевр.
-                    </p>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="d-block">
-                    <p class="about_title text_gold text-uppercase">дизайн офисного пространства</p>
+            <div class="col-lg-6">
+                <div class="block_content">
+                    <div class="title_font text_gold" style="font-size: 1.5em">дизайн офисного пространства</div>
                     <hr>
                     <img src="img/about/pringle.png" alt="" class="mw-100 py-4">
-                    <p class="my-4 text_grey text-justify">
+                    <div class="block_text text_font">
                         Pringle Brandon Perkins +Will – одно из самых успешных мировых архитектурных бюро
                         в Великобритании и регионе EMEA (страны Европы, Ближнего Востока и Африки),
                         специализирующихся на дизайне интерьеров рабочего пространства и коммерческой архитектуре.
@@ -196,12 +206,12 @@
                         сохранить много света и разработать пространство, в котором чувствуется свобода.
                         Поэтому было решено использовать элементы высокой архитектуры: нужную высоту потолков,
                         колонны внутри здания.
-                    </p>
-                    <p class="my-3 text_grey text-justify">
+                        <br>
+                        <br>
                         При этом часть интерьера отделана теплыми материалами (натуральным камнем и высококачественным
                         деревом), которые согревают пространство. По признанию экспертов выбранный дизайн настолько
                         прост, универсален, удобен и хорош, что актуален сейчас и будет востребован через много лет.
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -210,11 +220,11 @@
 <section id="about_content_3" class="py-5 text-center">
     <div class="container">
         <div class="row">
-            <div class="d-block col-12">
-                <h2 class="about_title text_gold text-uppercase">дизайн торговой галереи emporium</h2>
+            <div class="block_content col-12">
+                <h1 class="title_font text_gold">дизайн торговой галереи emporium</h1>
                 <hr>
                 <img src="img/about/callison.png" alt="" class="mw-100 py-4">
-                <p class="my-4 text_grey text-justify">
+                <p class="block_text my-4 text_font">
                     Основная концепция Talan Towers заключалась в создании центра притяжения
                     в столице – так называемого lifestyle, meeting place, где можно было бы проводить
                     за встречами/приятным досугом/шопингом целый день. Креативное архитектурное агентство
@@ -226,14 +236,14 @@
             </div>
         </div>
 
-        <div class="row py-4">
-            <div class="d-table col-12 py-5">
+        <div class="row">
+            <div class="col-12">
                 <img src="img/about/leed.png" alt="" class="mw-100 py-4">
-                <h5 class="text_gold text-uppercase">leed</h5>
-                <h5 class="text_gold">(Leadership in Energy and Environmental Design)</h5>
+                <h1 class="title_font text_gold">leed</h1>
+                <h1 class="title_font text_gold" style="font-size: 1.2em">(Leadership in Energy and Environmental Design)</h1>
             </div>
-            <div class="col-md-6 text-justify">
-                <p>
+            <div class="col-lg-6 block_content">
+                <div class="block_text text_font">
                     Многофункциональный комплекс Talan Towers — первый и единственный многофункциональный
                     комплекс в Казахстане, получивший международный сертификат LEED
                     (Leadership in Energy and Environmental Design) в категории GOLD.
@@ -241,19 +251,21 @@
                     United States Green  Building Council (USGBC) в 1993 году, направлены  на проектирование
                     сооружений с меньшим вредом для окружающей среды. Достичь необходимых показателей можно за
                     счет экономии воды и электроэнергии, а также поддержания здоровья людей, работающих в этом здании.
-                </p>
+                </div>
             </div>
-            <div class="col-md-6 text-left">
-                <p class="mb-0">
-                    Соответствовать принципам экологичного  и инновационного строительства Talan Towers позволило внедрение в том числе таких
-                    «умных» решений:
-                </p>
-                <p class="mb-0">- технология зеленой кровли с капельным орошением;</p>
-                <p class="mb-0">- энергоэффективные лифты;</p>
-                <p class="mb-0">- специальное энергосберегающее остекление;</p>
-                <p class="mb-0">- солнечные батареи;</p>
-                <p class="mb-0">- повторное использование дождевой воды;</p>
-                <p class="mb-0">- зарядные станции для электромобилей.</p>
+            <div class="col-lg-6 block_content">
+                <div class="block_text text_font">
+                    <p class="mb-0">
+                        Соответствовать принципам экологичного  и инновационного строительства Talan Towers позволило внедрение в том числе таких
+                        «умных» решений:
+                    </p>
+                    <p class="mb-0">- технология зеленой кровли с капельным орошением;</p>
+                    <p class="mb-0">- энергоэффективные лифты;</p>
+                    <p class="mb-0">- специальное энергосберегающее остекление;</p>
+                    <p class="mb-0">- солнечные батареи;</p>
+                    <p class="mb-0">- повторное использование дождевой воды;</p>
+                    <p class="mb-0">- зарядные станции для электромобилей.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -262,10 +274,10 @@
     <div class="container">
         <div class="row">
             <div class="d-block col-12">
-                <h2 class="about_title text_gold text-uppercase py-3">структура объектов</h2>
-                <p>наведите курсором на здание, чтобы рассмотреть структуру расположения объектов</p>
+                <h2 class="title_font text_gold">структура объектов</h2>
+                <p class="text_font">наведите курсором на здание, чтобы рассмотреть структуру расположения объектов</p>
                 <img src="img/about/tower.png" alt="" class="mw-100 py-5">
-                <p class="my-4 text_grey">
+                <p class="text_font my-4">
                     Структура многофункционального комплекса Talan Towers включает в себя объекты различного
                     функционального назначения, в числе которых на сегодняшний день офисы Talan Towers Offices,
                     отель международного уровня The Ritz-Carlton, Astana, резиденции The Ritz-Carlton Residences,
@@ -290,7 +302,7 @@
                 </a>
             </div>
             <div class="text-center w-100 mt-4">
-                <a href="#" class="footer_link_contacts">
+                <a href="#" class="text_font text_gold">
                     Контакты
                 </a>
             </div>
@@ -300,10 +312,14 @@
 
 
 
-<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/jquery.min.js"></script>
 <script src="js/jquery.maskedinput.js"></script>
-<script src="js/bootstrap/bootstrap.min.js"></script>
+<script src="js/carousel/jquery.resize.js"></script>
+<script src="js/carousel/jquery.waitforimages.js"></script>
+<script src="js/carousel/modernizr.js"></script>
+<script src="js/carousel/jquery.carousel-3d.js"></script>
 <script src="js/bootstrap/popper.min.js"></script>
+<script src="js/bootstrap/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

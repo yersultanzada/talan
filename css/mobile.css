@@ -24,20 +24,51 @@
     header .mobile_menu {
         display: none !important;
     }
+    #rc_bg .bg_img_text {
+        bottom: 40%;
+    }
+    #rc_content_1 .mml_lg {
+        margin-left: -100px;
+    }
+    #rc_mokki_block .big_img {
+        max-width: initial !important;
+        margin-left: -27%;
+        width: 700px;
+        position: relative;
+        z-index: -1;
+    }
+    #rc_starbucks_block .big_img {
+        max-width: initial !important;
+        margin-right: -27%;
+        width: 700px;
+        position: relative;
+        z-index: -1;
+    }
+}
+@media only screen and (max-width: 992px){
+    .bg_img .bg_img_text {
+        bottom: 30%;
+    }
+    #rc_bg .bg_img_text {
+        bottom: 20%;
+    }
 }
 @media only screen and (max-width: 768px){
-    #main_bg .main_bg_text h1 {
+    .bg_img .bg_img_text h1 {
         font-size: 1.5em;
     }
     #main_content_2 h1 {
         font-size: 1.5em;
+    }
+    #rc_bg .bg_img_text {
+        bottom: 40%;
     }
 }
 @media only screen and (max-width: 576px){
     header .mobile_dropdown_menu {
         min-width: 100vw;
     }
-    #main_bg .main_bg_text {
+    .bg_img .bg_img_text {
         bottom: 50%;
     }
     #main_content_3 .ritz_caption {
@@ -48,12 +79,18 @@
         margin-top: 20px;
     }
 }
-@media only screen and (max-width: 440px){
-    #main_bg img {
+@media only screen and (max-width: 480px){
+    .bg_img>img {
         height: 400px;
         object-fit: cover;
     }
-    #main_bg .main_bg_text h1 {
+    .bg_img .bg_img_text {
+        bottom: 10%;
+    }
+    #rc_bg .bg_img_text {
+        bottom: 10%;
+    }
+    .bg_img .bg_img_text h1 {
         font-size: 1.2em;
     }
     #main_content_2 h1 {

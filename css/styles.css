@@ -23,12 +23,51 @@
   font-weight: 300;
   font-style: normal; }
 @font-face {
+  font-family: 'Montserrat Regular';
+  src: url("../fonts/montserrat/Montserrat-Regular.eot");
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("../fonts/montserrat/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat/Montserrat-Regular.woff") format("woff"), url("../fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
   font-family: 'RaleighLtBt';
-  src: url("../fonts/raleigh/RaleighC Lt Bt.otf") format("opentype");
+  src: url("../fonts/raleigh/RaleighCLtBT.otf") format("opentype");
   font-weight: normal;
   font-style: normal; }
 body {
   font-family: Montserrat, sans-serif; }
+
+.text_font {
+  font-size: 13px;
+  line-height: 1.5; }
+
+.title_font {
+  font-size: 2.2em;
+  font-family: RaleighLtBt, sans-serif;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-bottom: 0; }
+
+.bg_img .bg_img_text {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%; }
+  .bg_img .bg_img_text h1 {
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+    color: #bba36a; }
+
+.block_content .block_text {
+  margin: 20px 0;
+  text-align: justify; }
+.block_content .block_action a {
+  text-decoration: underline; }
+.block_content .block_actionBtn a {
+  text-decoration: none !important;
+  padding: 5px 15px;
+  border: 1px solid; }
 
 header {
   position: absolute;
@@ -71,8 +110,22 @@ header {
       padding: 0; }
   header .mobile_menu {
     position: relative; }
+    header .mobile_menu .dropdown {
+      display: inline-block;
+      vertical-align: bottom;
+      text-transform: uppercase; }
+      header .mobile_menu .dropdown .btn {
+        font-size: 13px;
+        font-weight: 300;
+        color: #bba36a; }
+      header .mobile_menu .dropdown .dropdown-menu {
+        min-width: inherit;
+        font-size: 13px;
+        font-weight: 300; }
+        header .mobile_menu .dropdown .dropdown-menu .dropdown-item {
+          color: #bba36a;
+          padding: 4px 12px; }
     header .mobile_menu a#dropdownMenuLink {
-      float: right;
       color: #bba36a; }
       header .mobile_menu a#dropdownMenuLink:hover {
         color: #bba36a; }
@@ -119,27 +172,12 @@ header {
   header .mobile_dropdown_menu._show {
     display: block; }
 
-#main_bg .main_bg_text {
-  position: absolute;
-  bottom: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%; }
-  #main_bg .main_bg_text h1 {
-    font-size: 2em;
-    text-align: center;
-    color: #bba36a;
-    text-transform: uppercase; }
-  #main_bg .main_bg_text span {
-    width: 100%;
-    text-align: center;
-    text-transform: uppercase;
-    color: #fff;
-    margin-top: 1em; }
-
-.text_lil_monts {
-  font-size: 13px;
-  line-height: 1.5; }
+#main_bg span {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 1em 0; }
 
 #main_content_1 {
   padding-top: 50px; }
@@ -151,8 +189,7 @@ header {
   #main_content_2 h1 {
     font-size: 2em;
     text-align: center;
-    color: #575657;
-    text-transform: uppercase; }
+    color: #575657; }
 
 #main_content_3 {
   padding-top: 70px; }
@@ -178,39 +215,149 @@ footer {
     margin-right: 15px; }
     footer a:hover {
       text-decoration: none; }
-  footer a.footer_link_contacts {
-    color: #bba36a; }
-    footer a.footer_link_contacts:hover {
-      color: #8F7A4A;
-      text-decoration: none; }
-
-#offices_bg .offices_bg_text {
-  position: absolute;
-  bottom: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%; }
-  #offices_bg .offices_bg_text h1 {
-    font-size: 2em;
-    text-align: center;
-    width: 100%;
-    color: #bba36a;
-    text-transform: uppercase; }
+  footer a.footer_link_contacts:hover {
+    color: #8F7A4A;
+    text-decoration: none; }
 
 #offices_blocks {
   padding: 50px 0; }
-  #offices_blocks .off_block_title {
-    font-size: 2.2em;
-    font-family: RaleighLtBt, sans-serif; }
   #offices_blocks .block_content {
     padding: 40px; }
-    #offices_blocks .block_content .off_block_text {
-      margin: 20px 0; }
-    #offices_blocks .block_content .off_block_action a {
-      text-decoration: underline; }
-    #offices_blocks .block_content .off_block_actionBtn a {
-      text-decoration: none !important;
-      padding: 5px 15px;
-      border: 1px solid; }
+  #offices_blocks form {
+    padding: 20px 0; }
+    #offices_blocks form .form-group {
+      font-family: Montserrat Regular, sans-serif;
+      font-size: 13px; }
+      #offices_blocks form .form-group .form-control {
+        border-radius: 0; }
+    #offices_blocks form button {
+      font-size: 13px;
+      padding: 5px 35px;
+      text-transform: uppercase;
+      background-color: #bba36a;
+      color: #ffffff; }
+
+#rc_content_1 {
+  padding: 50px 0; }
+  #rc_content_1 .block_content {
+    padding: 40px; }
+
+#rc_content_4 .block_content {
+  padding: 40px;
+  margin-top: -90px; }
+#rc_content_4 a {
+  text-decoration: underline; }
+
+#rcr_content_1 {
+  padding: 50px 0; }
+  #rcr_content_1 .block_content {
+    padding: 40px; }
+  #rcr_content_1 a {
+    font-size: 1.2em;
+    text-decoration: underline; }
+
+#emporium_content_2 {
+  padding: 50px 0; }
+  #emporium_content_2 .block_content {
+    padding: 40px; }
+
+#rc_mokki_block {
+  padding-top: 50px; }
+  #rc_mokki_block .block_content {
+    padding: 40px;
+    word-wrap: break-word; }
+
+#rc_ozen_block {
+  padding-top: 50px; }
+  #rc_ozen_block .block_content {
+    padding: 40px;
+    word-wrap: break-word; }
+
+#rc_selfie_block {
+  padding-top: 50px; }
+  #rc_selfie_block .block_content {
+    padding: 40px;
+    word-wrap: break-word; }
+
+#rc_starbucks_block {
+  padding: 50px 0; }
+  #rc_starbucks_block .block_content {
+    padding: 40px;
+    word-wrap: break-word; }
+
+#contacts_page {
+  padding: 50px 0; }
+  #contacts_page .block_content {
+    padding: 40px; }
+  #contacts_page form {
+    padding: 20px 0; }
+    #contacts_page form .form-group {
+      font-family: Montserrat Regular, sans-serif;
+      font-size: 13px; }
+      #contacts_page form .form-group .form-control {
+        border-radius: 0; }
+    #contacts_page form button {
+      font-size: 13px;
+      padding: 5px 35px;
+      text-transform: uppercase;
+      background-color: #bba36a;
+      color: #ffffff; }
+
+/* -------------------------------------------------------------------------
+   begin Scroll Down Button
+ * ------------------------------------------------------------------------- */
+.scroll_down {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 30px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none; }
+
+.scroll_down:before {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: #fff;
+  border-radius: 100%;
+  -webkit-animation: scroll_down_btn-animation 2s infinite;
+  animation: scroll_down_btn-animation 2s infinite;
+  box-sizing: border-box; }
+
+@keyframes scroll_down_btn-animation {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0; }
+  40% {
+    opacity: 1; }
+  80% {
+    transform: translate(0, 20px);
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+@-webkit-keyframes scroll_down_btn-animation {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 0; }
+  40% {
+    opacity: 1; }
+  80% {
+    -webkit-transform: translate(0, 20px);
+    transform: translate(0, 20px);
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+/* -------------------------------------------------------------------------
+   end Scroll Down Button
+ * ------------------------------------------------------------------------- */
 
 /*# sourceMappingURL=styles.css.map */

@@ -74,42 +74,42 @@
 }
 
 /* line 9, ../../styles/theme/jquery.carousel-3d.default.scss */
-[data-carousel-3d] {
+/*[data-carousel-3d] {
   background: linear-gradient(0deg, #c8c8c8, white, #c8c8c8);
   background: -ms-linear-gradient(0deg, #c8c8c8, white, #c8c8c8);
   background: -moz-linear-gradient(0deg, #c8c8c8, white, #c8c8c8);
   background: -webkit-linear-gradient(0deg, #c8c8c8, white, #c8c8c8);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=0 );
   -ms-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=0 );
-}
+}*/
 
 /* line 19, ../../styles/theme/jquery.carousel-3d.default.scss */
-[data-carousel-3d] {
+/*[data-carousel-3d] {
   border: 3px solid #e0e0e0;
-}
+}*/
 
 /* line 26, ../../styles/theme/jquery.carousel-3d.default.scss */
 [data-carousel-3d] [data-prev-button]:before {
-  content: url("/img/carousel/prev.png");
+  content: url("../../img/carousel/prev.png");
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  width: 43px;
-  height: 49px;
+  width: 21px;
+  height: 24px;
   margin: auto;
 }
 /* line 39, ../../styles/theme/jquery.carousel-3d.default.scss */
 [data-carousel-3d] [data-next-button]:before {
-  content: url("/img/carousel/next.png");
+  content: url("../../img/carousel/next.png");
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  width: 43px;
-  height: 49px;
+  width: 21px;
+  height: 24px;
   margin: auto;
 }
 
