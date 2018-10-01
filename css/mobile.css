@@ -24,6 +24,9 @@
     header .mobile_menu {
         display: none !important;
     }
+    #main_content_2 h1 {
+        font-size: 1.7em;
+    }
     #rc_bg .bg_img_text {
         bottom: 40%;
     }
@@ -60,6 +63,9 @@
     #main_content_2 h1 {
         font-size: 1.5em;
     }
+    #main_content_4 .block_content {
+        margin-top: 0;
+    }
     #rc_bg .bg_img_text {
         bottom: 40%;
     }
@@ -70,13 +76,6 @@
     }
     .bg_img .bg_img_text {
         bottom: 50%;
-    }
-    #main_content_3 .ritz_caption {
-        margin-top: 0;
-        margin-right: 0;
-    }
-    #main_content_4 .m_t {
-        margin-top: 20px;
     }
 }
 @media only screen and (max-width: 480px){
