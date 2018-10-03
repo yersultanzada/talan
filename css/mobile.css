@@ -27,9 +27,6 @@
     #main_content_2 h1 {
         font-size: 1.7em;
     }
-    #rc_bg .bg_img_text {
-        bottom: 40%;
-    }
     #rc_content_1 .mml_lg {
         margin-left: -100px;
     }
@@ -50,19 +47,15 @@
 }
 @media only screen and (max-width: 992px){
     .bg_img .bg_img_text {
-        bottom: 30%;
+        bottom: 0;
     }
-    #rc_bg .bg_img_text {
-        bottom: 20%;
-    }
-    #main_content_3 {
+    #main_content_3, #main_content_5, #main_content_6 {
         padding-top: 0;
     }
-    #main_content_5 {
-        padding-top: 0;
-    }
-    #main_content_6 {
-        padding-top: 0;
+}
+@media only screen and (min-width: 992px){
+    #rcr_content_1 .pt_lg_25p {
+        padding-top: 25%;
     }
 }
 @media only screen and (max-width: 768px){
@@ -75,29 +68,20 @@
     #main_content_4 .block_content {
         margin-top: 0;
     }
-    #rc_bg .bg_img_text {
-        bottom: 40%;
-    }
 }
 @media only screen and (max-width: 576px){
     header .mobile_dropdown_menu {
         min-width: 100vw;
     }
-    .bg_img .bg_img_text {
-        bottom: 50%;
-    }
-}
-@media only screen and (max-width: 480px){
     .bg_img>img {
         height: 400px;
         object-fit: cover;
     }
-    .bg_img .bg_img_text {
-        bottom: 10%;
+    .fix_h_instead_bg {
+        height: 80px;
     }
-    #rc_bg .bg_img_text {
-        bottom: 10%;
-    }
+}
+@media only screen and (max-width: 480px){
     .bg_img .bg_img_text h1 {
         font-size: 1.2em;
     }
