@@ -55,6 +55,15 @@
     #rc_bg .bg_img_text {
         bottom: 20%;
     }
+    #main_content_3 {
+        padding-top: 0;
+    }
+    #main_content_5 {
+        padding-top: 0;
+    }
+    #main_content_6 {
+        padding-top: 0;
+    }
 }
 @media only screen and (max-width: 768px){
     .bg_img .bg_img_text h1 {
