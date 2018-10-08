@@ -24,6 +24,9 @@
     header .mobile_menu {
         display: none !important;
     }
+    #main_bg span {
+        padding-bottom: 150px;
+    }
     #main_content_2 h1 {
         font-size: 1.7em;
     }
